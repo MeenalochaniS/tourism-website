@@ -74,7 +74,7 @@
   }
   .about-container p {
     text-align: center;
-    padding: 15px;
+    padding: 120px;
     background-image: url(./images/blur.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -91,3 +91,50 @@ center{
 center:hover {
   color:#2c5334;
 }
+#gallery-h {
+  padding: 0%;
+}
+* {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.row{
+  background-color: #000000;
+}
+.row:hover{
+  background-image: url('./imgs/Untitled\ design.jpg');
+}
+.row img {
+  transition: 1s ease;
+  }
+  
+  .row img:hover{
+  -webkit-transform: scale(0.8);
+  -ms-transform: scale(0.8);
+  transform: scale(0.8);
+  transition: 1s ease;
+  cursor: pointer;
+  }
+  figcaption {
+    background-color: #39919c;
+  }
+  #contact-h {
+    padding: 0%;
+  }
+  form {
+    text-align: center;
+    background-image: url(./images/blur.jpg);
+    background-size: cover;
+  }
